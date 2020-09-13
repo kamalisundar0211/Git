@@ -33,7 +33,7 @@ public class A {
 	public void time() throws IOException, InterruptedException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File des = new File("C:\\Users\\Yaazhini\\eclipse-workspace\\junitsample\\ScreenShot\\output.jpeg");
+		File des = new File("C:\\Users\\Yaazhini\\eclipse-workspace\\junitsample\\ScreenShot\\output1.jpeg");
 		FileUtils.copyFile(src, des);
 	 Thread.sleep(6000);
 	}
@@ -56,7 +56,7 @@ public class A {
 	public void time1() throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File des = new File("C:\\Users\\Yaazhini\\eclipse-workspace\\junitsample\\ScreenShotoutput.jpeg");
+		File des = new File("C:\\Users\\Yaazhini\\eclipse-workspace\\junitsample\\ScreenShotoutput2.jpeg");
 		FileUtils.copyFile(src, des);
 
 	}
